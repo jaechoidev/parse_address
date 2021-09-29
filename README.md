@@ -4,10 +4,12 @@ This is for parsing addresses given in the following format and returns the comp
 
 ## examples 
 123 Main St Vancouver BC A1B2C3 ->
+
 {‘number’: 123, ‘street’: ‘Main St’, ‘city’: ‘Vancouver’, ‘province’: ‘BC’, ‘postal_code’: ‘A1B2C3’}
 
 
-Eg2. 4-567 W8th Ave Vancouver BC D4E5F6 ->
+4-567 W8th Ave Vancouver BC D4E5F6 ->
+
 {‘unit’: 4, ‘number’: 567, ‘street’: ‘W8th Ave’, ‘city’: ‘Vancouver’, ‘province’: ‘BC’, ‘postal_code’: ‘D4E5F6’}
 
 
